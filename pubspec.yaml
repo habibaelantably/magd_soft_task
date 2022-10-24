@@ -44,6 +44,9 @@ dependencies:
   fluttertoast: ^8.0.9
   sizer: ^2.0.15
   flutter_svg_provider: ^1.0.3
+  flutter_staggered_grid_view: ^0.6.2
+  buildcondition: ^0.0.4
+
 
 dev_dependencies:
   flutter_test:
@@ -54,7 +57,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -70,6 +73,8 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/images/welcome.png
+    - assets/images/product.png
     - assets/i18n/
 
   # An image asset can refer to one or more resolution-specific "variants", see

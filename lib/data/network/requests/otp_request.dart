@@ -1,24 +1,21 @@
 
-class VerifyPhoneRequestModel {
-  String? name;
+class OTPRequestModel{
+  String? code;
   String? phone;
 
-
-  VerifyPhoneRequestModel
+  OTPRequestModel
       ({
-    this.name,
+    this.code,
     this.phone,
-    });
+  });
 
   Map<String,dynamic> toMap()
   {
     return
       {
-        'name':name,
+        'code':code,
         'phone':phone,
-
       };
   }
 
 }
-
